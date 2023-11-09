@@ -1,0 +1,146 @@
+@media (width > 768px){
+   body{
+    background-image: none;
+   }
+
+    header{
+        margin-left: 40px;
+        width: 768px;
+        justify-content: start;
+    }
+
+    .backTab{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: -60px;
+        right: 0;
+    }
+
+    .container{
+        margin-top: 145px;
+        margin-left: -93px;
+        width: 635px;
+        background: #121725;
+    }
+
+    h2{
+        margin-top: 93px;
+        font-size: 48px;
+        line-height: 56px; 
+        text-align: start;
+    }
+
+    span{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        width: 445px;
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+        align-items: start;
+        text-align: start;
+    }
+
+    .logos{
+        margin-top: 75px;
+    }
+    .textBoxi{
+        width: 427px;
+        height: 56px;
+    }
+
+    .button{
+        position: relative;
+    }
+
+    button{
+        top: 55px;
+        right: 5px;
+        width: 162px;
+        height: 48px;
+        position: absolute;
+        margin-top: 0;
+    }
+
+    .image{
+        width: 96px;
+        height: 29px;
+    }
+
+    footer{
+        display: block;
+        width: 768px;
+        height: 200px;
+        position: relative;
+    }
+
+    .wertili{
+        position: absolute;
+        bottom: 0;
+        left: 25px;
+    }
+}
+
+
+@media (width > 1440px){
+    header{
+        width: 1440px;
+        margin-left: 0;
+    }
+
+    .spotify{
+        margin-top: 102px;
+        margin-left: 165px;
+    }
+    .ravici{
+        margin-top: 108px;
+    }
+    .backDes{
+        top: 130px;
+        right: 0;
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+    .backTab{
+        display: none;
+    }
+
+    .container{
+        margin-top: 87px;
+        margin-left: -385px;
+        width: 723px;
+    }
+
+    h2{
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .image{
+        width: 129px;
+        height: 26px;
+    }
+    footer{
+        width: 1440px;
+    }
+
+    .wertili{
+        left: 1204px;
+        top: -58px;
+    
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+}
